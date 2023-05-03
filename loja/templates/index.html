@@ -1,3 +1,4 @@
+{% load static %}
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -5,52 +6,84 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css">
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="{% static 'css\styles.css'  %}">
     <title>Portifólio</title>
 </head>
 <body>
     <div class="background">
         <header>
             <div class="logo">
-                <i class="fa-solid fa-l"></i>
+                <i class="fa-solid fa-store"></i>
             </div>
-            <div class="cabecalho-links">
-                <li>
-                    <a href="#">Inicio</a>
-                </li>
-                <li>
-                    <a href="#">Projetos</a>
-                </li>
-                <li>
-                    <a href="#">Sobre</a>
-                </li>
-                <button>Meu Contato</button>
-            </div>
+            <nav>
+                <ul>
+                    <li><a href="#">Item 1</a></li>
+                    <li><a href="#">Item 2</a></li>
+                    <li><a href="#">Item 3</a></li>
+                  
+                <buttonc class="btncadastro" >Cadastre-se</buttonc>
+                <button class="btnlogin" >Já tenho login</button>
+            </ul>
+            </nav>
+            <div class="menu-toggle">
+    <i class="fa fa-bars"></i>
+  </div>
         </header>
         <div class="container-text">
             <div class="text">
-                <h3>Olá, Seja bem-vindo(a)!</h3>
-                <h1>Eu sou <span>Lucas Vieria</span></h1>
-                <p>E este é o meu Portifólio pessoal<br> aqui você encontra meus projetos<br> minhas habilidades e informações de contato.</p>
+                <h3>Seja bem-vindo(a)!</h3>
+                <h1>Ao <span>Lojão Variedades</span></h1>
+                <p>Encontre de tudo em um só lugar - a sua loja de variedades!</p>
                 <div class="redes-sociais">
                     <a href="#"><i class="fa-brands fa-linkedin"></i></a>
                     <a href="#"><i class="fa-brands fa-instagram"></i></a>
                     <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
                 </div>
-                <button class="btn">Sobre Mim</button>
+               
             </div>
         </div>
     </div>
 
-    <div class="depart">
-        <h1>Olá, lista de departamentos</h1>
+     <div class="departaments" id="departs1">
+        <h1>DEPARTAMENTOS</h1>
 
-        <ul>
+       <!--<ul>
             {% for d in departamentos%}
             <li>{{d.nomeDepartamento}}</li>
             {%endfor%}
-        </ul>
-    </div>
+        </ul> --> 
+    </div> 
+    <div class="card-container">
+        <div class="card">
+          <img src="{% static 'img/faqueiro.png' %}" alt="faqueiroimg">
+          <h1>Cozinha</h1>
+          <h3>Faqueiro</h3>
+          <p>Description of Product 1</p>
+          <button>Add to Cart</button>
+        </div>
+        <div class="card">
+            <img src="{% static 'img/faqueiro.png' %}" alt="faqueiroimg">
+            <h1>Cozinha</h1>
+            <h3>Faqueiro</h3>
+            <p>Description of Product 1</p>
+            <button>Add to Cart</button>
+          </div>
+          <div class="card">
+            <img src="{% static 'img/faqueiro.png' %}" alt="faqueiroimg">
+            <h1>Cozinha</h1>
+            <h3>Faqueiro</h3>
+            <p>Description of Product 1</p>
+            <button>Add to Cart</button>
+          </div>
+          <div class="card">
+            <img src="{% static 'img/faqueiro.png' %}" alt="faqueiroimg">
+            <h1>Cozinha</h1>
+            <h3>Faqueiro</h3>
+            <p>Description of Product 1</p>
+            <button>Add to Cart</button>
+          </div>
+      </div>
+      
 
 
 
