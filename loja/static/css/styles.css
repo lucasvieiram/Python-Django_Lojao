@@ -6,7 +6,7 @@
     padding: 0;
     text-decoration: none;
     list-style: none;
-    font-family: "Noto Sans", black 900;
+    font-family: "Poppins", sans-serif;
 }
 body{
     overflow: scroll;
@@ -23,8 +23,8 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    color: #dfc500;
-    padding: 20px;
+    color: #ffffff;
+  margin-left: 20px;
   }
   
 .logo{
@@ -35,11 +35,11 @@ nav ul{
     display: flex;
     list-style: none;
     margin: 0;
-    padding: 0;
+    padding: 20px;
 }
   
 nav li{
-    margin: 0 10px;
+    margin: 0 30px;
   }
   
   nav a{
@@ -47,12 +47,13 @@ nav li{
     gap: 3rem;
     font-weight: 300;
     cursor: pointer;
+    color: #ffffff;
   
   }
 
 .btncadastro{
-    color: #2c5cc5;
-    background: transparent;
+    color: #ffffff;
+    background: #2c5cc5;
     border:  solid 1px #2c5cc5;
     padding: 5px;
     border-radius: 15px;
@@ -60,6 +61,7 @@ nav li{
     width: 150px;
     margin-right: 150px;
     text-align: center;
+    font-family: "Poppins", sans-serif;
 }
 .btncadastro:hover{
     color: #2c5cc5;
@@ -67,27 +69,9 @@ nav li{
     transition: 0.5s;
     cursor: pointer;
 }
-
-.btnlogin{
-    color: #2c5cc5;
-    background: transparent;
-    border:  solid 1px #2c5cc5;
-    padding: 5px;
-    border-radius: 15px;
-    font-size: 12px;
-    width: 150px;
-    margin-right: 150px;
-    text-align: center;
-}
-.btnlogin:hover{
-    color: #2c5cc5;
-    background-color: #dfc500;
-    transition: 0.5s;
-    cursor: pointer;
-}
 .container-text{
-    padding: 25px 50px 75px;
-    display: inline-block;
+    padding: 2px 50px 40px ;
+    display: flex!important;
     margin: 10px;
     text-align: center;
     float: left;
@@ -108,7 +92,7 @@ nav li{
 
 }
 .text span{
-    color: #dfc500;
+    color: #ffffff;
 }
 .text p{
     color: #2c5cc5;
@@ -125,6 +109,20 @@ nav li{
 .btn{
     margin-top: 15px;
 }
+
+
+#carouselDarkVariant{
+  padding: 25px 1px 90px!important;
+  margin: 10px!important;
+  text-align: center!important;
+  width: 60%;
+
+}
+
+
+
+
+
 .departaments{
     color: #2c5cc5;
     padding: 10px;
