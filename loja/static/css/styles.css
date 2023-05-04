@@ -166,7 +166,7 @@ nav li{
   }
   
   .card {
-    display: inline-block;
+    display: flex;
     width: 300px;
     margin: 10px;
     border: 1px solid #ccc;
