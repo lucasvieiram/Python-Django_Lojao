@@ -13,7 +13,7 @@ body{
 }
 .background{
     background: linear-gradient(rgba(0,0,0, 0.5)) ;
-    background-image: url(../img/conceito-de-compras-fecha-retrato-jovem-linda-e-atraente-garota-ruiva-sorrindo-olhando-para-a-camera.jpg);
+    background-color: #184848;
     background-size: cover;
     background-position: center;
     width: 100%;
@@ -23,10 +23,10 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    color: #ffffff;
     margin-left: 20px;
     font-family: "Poppins", sans-serif;
     font-weight: bold;
+    color: #a8c030;
   }
   
 .logo{
@@ -40,7 +40,7 @@ nav ul{
     padding: 20px;
     font-family: "Poppins", sans-serif;
     font-weight: bold;
-      font-size: 20px;
+    font-size: 20px;
   }
   
 nav li{
@@ -52,13 +52,13 @@ nav li{
     gap: 3rem;
     font-weight: 300;
     cursor: pointer;
-    color: #ffffff;
+    color: #a8c030;
     
   
   }
 
 .btncadastro{
-    color: #ffffff;
+    color: #a8c030;
     background: #ffffff00;
     border: none;
   
@@ -84,17 +84,14 @@ nav li{
     float: left;
 
 }
-.text{
-    color: #2c5cc5;
-    font-size: 25px;
-}
+
 .text h1{
-    color: #2c5cc5;
+    color: #8A2BE2;
    
 
 }
 .text h3{
-    color: #2c5cc5;
+    color: #8A2BE2;
     margin-top: 10px;
 
 }
@@ -102,14 +99,14 @@ nav li{
     color: #ffffff;
 }
 .text p{
-    color: #2c5cc5;
+    color: #8A2BE2;
     font-size: 15px;
     font-weight: 300;
     margin-top: 10px;
 
 }
 .redes-sociais a{
-    color: #2c5cc5cb;
+    color: #8A2BE2;
     padding: 10px;
     margin-top: 5px;
 }
@@ -119,7 +116,7 @@ nav li{
 
 .subheader{
   background-color: #ffffff!important;
-  color: white;
+  color: #8A2BE2;
 }
 .card2323 {
   width: 50%!important;
@@ -134,11 +131,15 @@ nav li{
 
 }
 .breadcrumb-item{
-  background-color: #ffffff!important;
-  color: #000000!important;
+
+  color: #8A2BE2!important;
 }
 .breadcrumb-item:hover{
   background-color: #2c5cc5cb!important;
+}
+.breadcrumb a{
+
+  color: #8A2BE2!important;
 }
 .cardalerta{
   display: flex!important;
